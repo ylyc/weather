@@ -2,4 +2,7 @@
     <string name="app_name">Tweather</string>
     <string name="current_temperature">Current temperature</string>
     <string name="temperature">%1$f °C / %2$f °F</string>
+    <string name="see_standard_deviation_for_the_next_5_days">See standard deviation for the next 5 days</string>
+    <string name="data_not_available">Data not available.</string>
+    <string name="loading">Loading...</string>
 </resources>

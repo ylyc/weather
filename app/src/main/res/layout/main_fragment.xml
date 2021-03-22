@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/current_temperature" />
+
+    <TextView
+        android:id="@+id/temperatureTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="14 °C / 39 °F" />
+
+    <TextView
+        android:id="@+id/windSpeedTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="13 km/hr" />
+
+    <ImageView
+        android:id="@+id/cloudIv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_cloud_24px" />
+
+    <Button
+        android:id="@+id/next5DaysBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/see_standard_deviation_for_the_next_5_days" />
+
+    <TextView
+        android:id="@+id/sdTemp5daysTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
